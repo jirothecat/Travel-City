@@ -4,5 +4,19 @@ Welcome to Travel City: A single-page application designed to help guide you on 
 
 ## Setup 
 
-In the project directory: run '
+This project requires some commands to run in the terminal:
+
+To run the backend: 
+- 'json-server --watch db.json' 
+
+To start up the React project:
+- npm start 
+
+### Features
+
+- A list of cards available to the public offered by banks, and their information.
+- An Add New Card Route to include any cards not shown.
+- A Your Liked Cards Route for cards you've saved and liked.
+- A like button to favorite your selected card.
+
 
