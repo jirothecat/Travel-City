@@ -5,7 +5,8 @@ function CreditCardForm() {
     name: '',
     annual_fee: '',
     reward_details: '',
-    intro_offer: ''
+    intro_offer: '',
+    image: ''
   });
 
   const handleChange = (e) => {
@@ -15,20 +16,30 @@ function CreditCardForm() {
     });
   };
 
+  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    fetch('http://localhost:3000/creditCards', {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        },
+        body: JSON.stringify(formData)
+    })
     setFormData({
       name: '',
       annual_fee: '',
       reward_details: '',
-      intro_offer: ''
+      intro_offer: '',
+      image: ''
     });
   };
 
   return (
     <div className="credit-card-form">
-      <h2>Add New Credit Card</h2>
+      <h2>Didn't see one you liked? Add a new one!</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -61,6 +72,14 @@ function CreditCardForm() {
           onChange={handleChange}
           placeholder="Sign-up Bonus"
           required
+        />
+        <input
+         type="text"
+         name="image"
+         value={formData.image}
+         onChange={handleChange}
+         placeholder="Image"
+         required
         />
         <button type="submit">Add Card</button>
       </form>
