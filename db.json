@@ -1,0 +1,68 @@
+{
+    "creditCards": [
+        {
+            "id": 1,
+            "name": "Capital One Venture Rewards Credit Card",
+            "annual_fee": "$95",
+            "intro_offer": "75,000 Miles", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/1fc99a80-1508-4e14-83d7-eb5d5da65d97/1c02e12156eb0f625fadd3dc2c5319b30e24fdbaa35977525aa595a477520cbd.jpg", 
+            "reward_details": "Unlimited 2x miles on everyday purchases, 5x miles on hotels, vacations and travel."
+        },
+        {
+            "id": 2,
+            "name": "American Express Gold Card",
+            "annual_fee": "$325",
+            "intro_offer": "60,000 Points", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/2921dc2e-e2b0-4003-82af-f6ca0f575d1c/5eb2e3e3c51043b4fca67440273b09f596818b648fb99f794b6587be0fb8bd4e.jpg", 
+            "reward_details": "4x membership rewards on restaurants worldwide, 4x membership reward points at U.S. supermarkets (up to $25,000), 3x membership reward points on flights booked through AMEX."
+        },
+        {
+            "id": 3,
+            "name": "Chase Sapphire Preferred Card",
+            "annual_fee": "$95",
+            "intro_offer": "60,000 Points", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/7dce19da-5d96-4502-9fd2-70ff9655f13a/3f8b79d90932c89dcb16ddad07861bbc7d0c804366870949527ae9b89e1df384.png", 
+            "reward_details": "5x points on travel through Chase Travel, 3x on dining, streaming services and online groceries, 2x on other travel purposes, 1x on all other purchases."
+        },
+        {
+            "id": 4,
+            "name": "Chase Freedom Unlimited",
+            "annual_fee": "$0",
+            "intro_offer": "Up to $300 cash back", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/84e1494c-bae2-4b0d-ac8d-e8c095ceb2fe/95f4b4eef72766c5ec9e6535530b866e39a210342ef0541cf276c9b8c0f6f01b.jpg", 
+            "reward_details": "5% cash back on travel through Chase Travel, 3% cash back on dining and drugstore purchases, unlimited 1.5% cash back on all else."
+        },
+        {
+            "id": 5,
+            "name": "The Platinum Card from American Express",
+            "annual_fee": "$695",
+            "intro_offer": "80,000 Points", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/fd24850b-46ce-4ea8-9314-3594fe77944f/601002dc315bd852b965ea098224b51e27920bb2e281cb1b647a0c70074b3369.jpg", 
+            "reward_details": "5x membership reward points on flights booked directly with airlines or with AMEX travel up to $500,000, 5x membership reward points on prepaid hotels booked through American Express Travel. 1x reward points on all other purchases."
+        },
+        {
+            "id": 6,
+            "name": "Chase Sapphire Reserve",
+            "annual_fee": "$550",
+            "intro_offer": "60,000 Points", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/d89e10ed-e781-4d28-ae74-205056a10244/1cff93e8f8a62d1b2764b6845591fb1978a67de54a380773b1b72d9e12cd33de.jpg", 
+            "reward_details": "5x total points on flights and 10x total points on hotels and car rentals through Chase Travel, immediately after the first $300 is spent on travel purchases annually. 3x points on all other travel and dining, 1 point per $1 spent on all other purchases."
+        },
+        {
+            "id": 7,
+            "name": "Capital One Venture X Rewards Credit Card",
+            "annual_fee": "$395",
+            "intro_offer": "75,000 Miles", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/39cdfd80-3372-11ec-ba1e-0bd72314c41b/212d04e17da168e0519eff57f944fede1f66f4cb08bc9643a04cb8c48f0e5a25.jpg", 
+            "reward_details": "Unlimited 10x miles on hotels and rental cars through Capital One Travel, 5x miles on flights and vacation rentals through Capital One Travel, unlimited 2x miles on all other purchases."
+        },
+        {
+            "id": 8,
+            "name": "Wells Fargo Autograph Card",
+            "annual_fee": "$0",
+            "intro_offer": "20,000 Points", 
+            "image": "https://www.nerdwallet.com/cdn-cgi/image/width=300,quality=100/cdn/images/marketplace/credit_cards/157b4328-dd47-11ec-9440-d76f3e69ff2f/a8519165ae6b4483f70248426b216adf2db389e7289cb32c2b02e895dc2e09b2.jpg", 
+            "reward_details": "Unlimited 3x points on restaurants, travel, gas stations, transit, streaming services, and phone plans. 1x points on all other purchases."   
+        }
+    ]
+}
