@@ -7,7 +7,7 @@ Welcome to Travel City: A single-page application designed to help guide you on 
 This project requires some commands to run in the terminal:
 
 To run the backend: 
-- json-server --watch db.json
+- npm run server
 
 In a new terminal, to start up the React project and run it on a different port:
 - npm start 
